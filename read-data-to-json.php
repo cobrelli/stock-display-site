@@ -9,7 +9,7 @@
 		}
 		$json = json_encode($stocks);
 		$json = str_replace('\n', '', $json);
-		echo $json;
+		#echo $json;
 	}else{
 		echo "Could not find data :(";
 	}
