@@ -3,7 +3,7 @@ require_once('helpers/header.php');
 require_once('read-data-to-json.php');
 #echo $json;
 echo "<div style='width:75%; -moz-border-radius: 15px; border-radius:15px;background-color:red;padding:2%'>";
-echo "<div style='width: 100%; height: 50%; min-height: 400px; overflow: scroll; background-color:white'><table border='1'>";
+echo "<div style='width: 100%; height: 50%; min-height: 400px; overflow: scroll; background-color:white' id='main_table' ><table border='1'>";
 
 echo "<tr>";
 echo "<td></td>";
@@ -30,9 +30,10 @@ for ($i=1; $i < count($stocks[0]); $i++) {
 }
 
 echo "</table></div></div>";
-require_once('helpers/footer.php');
 
 echo "<script src='page-functions.js'></script>";
 echo "<button onclick='log()'>test</button>";
+
+require_once('helpers/footer.php');
 ?>
 

@@ -1,3 +1,5 @@
 function log(){
-	console.log("asf");
+	var table = document.getElementById('main_table');
+	table.innerHTML = "";
+	console.log(table);
 }
