@@ -33,5 +33,8 @@ for ($i=1; $i < count($stocks[0]); $i++) {
 
 echo "</table></div></div>";
 require_once('assets/footer.php');
+
+echo "<script src='page-functions.js'></script>";
+echo "<button onclick='log()'>test</button>";
 ?>
 
