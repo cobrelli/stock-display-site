@@ -1,7 +1,5 @@
-
 <?php 
-require_once('assets/header.php');
-
+require_once('helpers/header.php');
 require_once('read-data-to-json.php');
 #echo $json;
 echo "<div style='width:75%; -moz-border-radius: 15px; border-radius:15px;background-color:red;padding:2%'>";
@@ -32,7 +30,7 @@ for ($i=1; $i < count($stocks[0]); $i++) {
 }
 
 echo "</table></div></div>";
-require_once('assets/footer.php');
+require_once('helpers/footer.php');
 
 echo "<script src='page-functions.js'></script>";
 echo "<button onclick='log()'>test</button>";
